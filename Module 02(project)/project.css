@@ -1,0 +1,143 @@
+/* body{
+    background-color: blue;
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(168, 165, 166);
+    padding: 10px;
+}
+.logo{
+    width: 100px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.main-container{
+    display: flex;
+    gap: 20px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    /* background-image: url('images/background.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; */
+}
+.banner-left{
+    width: 400px;
+    line-height: 2;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+}
+.hire-btn{
+    background-color: rgb(94, 36, 149);
+}
+.project-btn{
+    background-color: rgb(53, 53, 225);
+}
+.title{
+    font-size: 45px;
+}
+.service-title{
+    font-size: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+.service-card{
+    width: 300px;
+    height: 430px;
+    /* border: 1px solid gray; */
+    box-shadow: 4px 4px 4px grey;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 20px;
+}
+.service-img{
+    width: 300px;
+    height: 200px;
+}
+.service-card-btn{
+    padding: 15px 25px;
+    background-color: rgb(193, 42, 220);
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: white;
+    border: none;
+}
+.service-card-description{
+    margin: 10px;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact-us{
+    padding: 50px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 4px 4px 4px grey;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.input-box{
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+.massage{
+    width: 40%;
+    height: 100px;
+    margin-top: 10px;
+}
+.submit-btn{
+    width: 25%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.footer-container{
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+    margin-top: 50px;
+    /* display: flex; */
+}
+.footer-description{
+    width: 50%;
+    display: flex;
+}
+
+@media only screen and (min-width: 370px) and (max-width: 870){
+    .nav{
+        width: 50%;
+    }
+}
